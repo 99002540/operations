@@ -28,7 +28,7 @@
                 int y=prime(n);
                 if(y==1) printf("%d is a prime number",n);
                 else printf("%d is not a prime number",n);
-                return 0;
+          
 		
 		//even or odd
 		even(5);
@@ -68,5 +68,8 @@ while(token!=NULL){
     token=strtok(NULL,"_");
 
 }
+		
+	printf("Facorial of number",fact(number));
+		
 		return 0;		
 	}
