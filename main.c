@@ -8,9 +8,9 @@
 	{
 
 		int n;
-		//int x=0;
-	//	int length;
-               //  int *arr;
+		int x=0;
+		int length;
+                int *arr;
 		char str[50];
 	        //sum
 		printf("Sum = %d",  sum(10, 20));
