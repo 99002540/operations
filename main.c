@@ -7,7 +7,7 @@
 	int main()
 	{
 
-		int n;
+		int n,y;
 		int length;
                  int *arr;
 		char str[1000];
@@ -28,12 +28,12 @@
                 int y=prime(n);
                 if(y==1) printf("%d is a prime number",n);
                 else printf("%d is not a prime number",n);
-          
-	 return 0;
-	}
+       
 	         
 		//even or odd
-		even(n);
+		y=even(n);
+		if(y==1) print("Even number");
+		else print (odd);
 
 	
 		// sort array
@@ -53,7 +53,7 @@
         	{
         	    printf("%d\n",arr[i]);
        		 }
-    		sort(length,arr);
+    		 sort(length,arr);
    		 free(arr);
    		  }
 	
