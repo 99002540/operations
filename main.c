@@ -11,7 +11,7 @@
 		//int x=0;
 	//	int length;
                //  int *arr;
-		char str[1000];
+		char str[50];
 	        //sum
 		printf("Sum = %d",  sum(10, 20));
 		//diff
