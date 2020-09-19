@@ -54,8 +54,7 @@
     sort(length,arr);
     free(arr);
     }
-	return 0;		
-	}
+	
 
 
 
@@ -69,3 +68,5 @@ while(token!=NULL){
     token=strtok(NULL,"_");
 
 }
+		return 0;		
+	}
