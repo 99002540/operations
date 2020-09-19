@@ -67,7 +67,7 @@ for (i = 0; i < length; i++) {
 
 
 
-int fact(number){
+int fact(int number){
 	if (number==1)
 	{
 		return 1;
