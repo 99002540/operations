@@ -10,7 +10,7 @@ int mul(int number1, int number2)
 	{
 		return number1 * number2;
 	}
-int div(int number1, int number2)
+int division(int number1, int number2)
 	{
 		return number1 / number2;
 	}
