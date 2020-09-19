@@ -62,8 +62,8 @@
 
 
 
-
-           printf("Enter a string with _  ");
+//substring , example"APPLE_MANGO_BANANA_PAPAYA" gives "APPLE","MANGO","BANANA","PAPAYA"
+		printf("Enter a string with _  ");
            scanf("%s",str);
            char *token=strtok(str,"_");
             while(token!=NULL){
