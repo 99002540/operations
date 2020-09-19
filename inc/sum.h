@@ -7,7 +7,7 @@ int mul(int number1, int number2);
 int division(int number1, int number2);
 int mod(int number1, int number2);
 int prime(int number);
-void even(int number);
+int even(int number);
 void sort(int length,int arr[]);
 //substring 
 int fact(int number);
