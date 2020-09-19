@@ -5,7 +5,9 @@
 	int main()
 	{
 
-		int n;					
+		int n;
+		int length;
+                 int *arr;
 	        //sum
 		printf("Sum = %d",  sum(10, 20));
 		//diff
@@ -25,9 +27,31 @@
                 else printf("%d is not a prime number",n);
                 return 0;
 		
-		//
+		//even or odd
 		if(n%2==0) printf("Even number");
 		else printf("odd");
 
-		return 0;
+	
+		// sort array
+		 printf("Enter a length of an array\n");
+    scanf("%d",&length);
+    arr=(int *)malloc(n*sizeof(int));
+    if(arr==NULL)
+        printf("Memory Not allocated");
+    else
+    {
+        printf("Array elements\n");
+        for(int i=0;i<length;i++)
+        {
+            scanf("%d",&arr[i]);
+        }
+        for(int i=0;i<length;i++)
+        {
+            printf("%d\n",arr[i]);
+        }
+    void (*st)(int,int)=sort;
+    st(lenghth,arr);
+    free(arr);
+    }
+	return 0;		
 	}
