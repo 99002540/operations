@@ -7,7 +7,8 @@
 	int main()
 	{
 
-		int n,y;
+		int n;
+		int y=0;
 		int length;
                  int *arr;
 		char str[1000];
@@ -32,8 +33,8 @@
 	         
 		//even or odd
 		y=even(n);
-		if(y==1) print("Even number");
-		else print (odd);
+		if(y==1) printf("Even number");
+		else printf ("odd");
 
 	
 		// sort array
