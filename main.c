@@ -29,22 +29,22 @@
                 if(y==1) printf("%d is a prime number",n);
                 else printf("%d is not a prime number",n);
           
-		
+		return 0;
 		//even or odd
-		even(5);
+		even(n);
 
 	
 		// sort array
 		 printf("Enter a length of an array\n");
-    scanf("%d",&length);
-    arr=(int *)malloc(n*sizeof(int));
-    if(arr==NULL)
-        printf("Memory Not allocated");
-    else
-    {
-        printf("Array elements\n");
-        for(int i=0;i<length;i++)
-        {
+                 scanf("%d",&length);
+  		 arr=(int *)malloc(n*sizeof(int));
+   		 if(arr==NULL)
+   		     printf("Memory Not allocated");
+  		  else
+   		 {
+    		    printf("Array elements\n");
+        		for(int i=0;i<length;i++)
+       		 {
             scanf("%d",&arr[i]);
         }
         for(int i=0;i<length;i++)
@@ -71,5 +71,5 @@ while(token!=NULL){
 		
 	printf("Facorial of given number is %d",fact(n));
 		
-		return 0;		
-	}
+return 0;		
+}
