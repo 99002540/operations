@@ -30,6 +30,7 @@
                 else printf("%d is not a prime number",n);
           
 		return 0;
+	}
 		//even or odd
 		even(n);
 
