@@ -9,4 +9,6 @@ int mod(int number1, int number2);
 int prime(int number);
 void even(int number);
 void sort(int length,int arr[]);
+//substring 
+int fact(number);
 #endif
