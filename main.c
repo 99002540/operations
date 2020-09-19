@@ -30,7 +30,7 @@
                 else printf("%d is not a prime number",n);
           
 	
-	
+	         
 		//even or odd
 		even(n);
 
@@ -46,29 +46,29 @@
     		    printf("Array elements\n");
         		for(int i=0;i<length;i++)
        		 {
-            scanf("%d",&arr[i]);
-        }
-        for(int i=0;i<length;i++)
-        {
-            printf("%d\n",arr[i]);
-        }
-    sort(length,arr);
-    free(arr);
-    }
+           	 scanf("%d",&arr[i]);
+        		}
+       		 for(int i=0;i<length;i++)
+        	{
+        	    printf("%d\n",arr[i]);
+       		 }
+    		sort(length,arr);
+   		 free(arr);
+   		  }
 	
 
 
 
 
 
-printf("Enter a string with _  ");
-scanf("%s",str);
-char *token=strtok(str,"_");
-while(token!=NULL){
-    printf("\"%s\",",token);
-    token=strtok(NULL,"_");
+           printf("Enter a string with _  ");
+           scanf("%s",str);
+           char *token=strtok(str,"_");
+            while(token!=NULL){
+	    printf("\"%s\",",token);
+	    token=strtok(NULL,"_");
 
-}
+		}
 		
 	printf("Facorial of given number is %d",fact(n));
 		
