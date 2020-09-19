@@ -8,6 +8,7 @@
 		int n;
 		int length;
                  int *arr;
+		char str[1000];
 	        //sum
 		printf("Sum = %d",  sum(10, 20));
 		//diff
@@ -53,3 +54,16 @@
     }
 	return 0;		
 	}
+
+
+
+
+
+printf("Enter a string with _  ");
+scanf("%s",str);
+char *token=strtok(str,"_");
+while(token!=NULL){
+    printf("\"%s\",",token);
+    token=strtok(NULL,"_");
+
+}
