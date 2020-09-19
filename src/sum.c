@@ -21,9 +21,9 @@ int mod(int number1, int number2)
 
 int prime(int number){
     int c=0;
-    for(int i=2;i<n;i++)
+    for(int i=2;i<number;i++)
     {
-        if(n%i==0) c++;
+        if(number%i==0) c++;
 
     }
     if(c==0) return 1;
