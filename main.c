@@ -48,7 +48,7 @@
         {
             printf("%d\n",arr[i]);
         }
-    sort(lenghth,arr);
+    sort(length,arr);
     free(arr);
     }
 	return 0;		
