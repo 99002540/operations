@@ -28,5 +28,33 @@ int prime(int number){
     }
     if(c==0) return 1;
     else return 0;
+void even(int number){
+if(number%2==0) printf("Even Number");
+	else printf("Odd number");
+}
+	
+void sort(int length,int arr[]){
+int i,j,t;
+for (i = 0; i < length; i++)
+        printf("\n%d ", *(arr + i));
+for (i = 0; i < length; i++) {
+
+        for (j = i + 1; j < n; j++) {
+
+            if (*(arr + j) < *(arr + i)) {
+
+                t = *(arr+ i);
+                *(arr + i) = *(arr + j);
+                *(arr + j) = t;
+            }
+        }
+    }
+    for (i = 0; i < length; i++)
+        printf("\n%d ", *(arr + i));
+}	
+	
+	
+	
+	
 
 }
