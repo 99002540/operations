@@ -28,9 +28,14 @@ int prime(int number){
     }
     if(c==0) return 1;
     else return 0;
+	
 void even(int number){
-if(number%2==0) printf("Even Number");
-	else printf("Odd number");
+if(number%2==0) {
+	printf("Even Number");}
+	
+	else{
+		printf("Odd number");
+	}
 }
 	
 void sort(int length,int arr[]){
