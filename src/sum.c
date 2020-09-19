@@ -76,4 +76,4 @@ int fact(int number){
 	{
 		return number*fact(number-1);
 	}
-	
+}	
