@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int sum(int number1, int number2)
 	{
 		return number1 + number2;
@@ -30,12 +31,14 @@ int prime(int number){
     if(c==0) return 1;
     else return 0;
 	
-void even(int number){
+int even(int number){
 if(number%2==0) {
-	printf("Even Number");}
+	return 1;
+}
 	
 	else{
-		printf("Odd number");
+		return 0;
+		
 	}
 }
 	
