@@ -28,8 +28,7 @@
                 return 0;
 		
 		//even or odd
-		if(n%2==0) printf("Even number");
-		else printf("odd");
+		even(5);
 
 	
 		// sort array
