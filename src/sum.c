@@ -19,7 +19,7 @@ int mod(int number1, int number2)
 		return number1 % number2;
 	}
 
-int prime(int n){
+int prime(int number){
     int c=0;
     for(int i=2;i<n;i++)
     {
