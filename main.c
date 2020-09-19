@@ -8,9 +8,9 @@
 	{
 
 		int n;
-		int x=0;
-		int length;
-                int *arr;
+		//int x=0;
+		//int length;
+              //  int *arr;
 		char str[50];
 	        //sum
 		printf("Sum = %d",  sum(10, 20));
@@ -31,7 +31,7 @@
                 else printf("%d is not a prime number",n);
        
 	         
-	//even or odd
+	/*//even or odd
 		x=even(n);
 		if(x==1) printf("Even number");
 		else printf ("odd");
@@ -58,7 +58,7 @@
    		 free(arr);
    		  }
 	
-
+*/
 
 
 
