@@ -69,7 +69,7 @@ while(token!=NULL){
 
 }
 		
-	printf("Facorial of number",fact(number));
+	printf("Facorial of number",fact(n));
 		
 		return 0;		
 	}
