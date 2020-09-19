@@ -10,5 +10,5 @@ int prime(int number);
 void even(int number);
 void sort(int length,int arr[]);
 //substring 
-int fact(number);
+int fact(int number);
 #endif
