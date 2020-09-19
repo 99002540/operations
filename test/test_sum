@@ -14,11 +14,11 @@ void tearDown(){}
 #define PROJECT_NAME    "Operation"
 
 /* Prototypes for all the test functions */
-void test_add(void);
-void test_sub(void);
-void test_mul(void);
-void test_division(void);
-
+void sum(void);
+void diff(void);
+void mul(void);
+void division(void);
+void mod(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -30,11 +30,11 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "add", add);
+  CU_add_test(suite, "add", sum);
   CU_add_test(suite, "subtract", sub);
   CU_add_test(suite, "multiply",mul);
   CU_add_test(suite, "divide", division);
-
+  CU_add_test(suite, "modulus", mod);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -50,30 +50,36 @@ int main() {
 }
 
 /* Write all the test functions */ 
-void test_add(void) {
+void sum(void) {
   CU_ASSERT(30 == add(10, 20));
   
   /* Dummy fail*/
   CU_ASSERT(1500 == add(10,20));
 }
 
-void test_subtract(void) {
+void diff(void) {
   CU_ASSERT(-10= subtract(10, 20)
   
   /* Dummy fail*/
   CU_ASSERT(1 == subtract(10, 90));
 }
 
-void test_multiply(void) {
+void mul(void) {
   CU_ASSERT(200==multiply(10,20));
   
   /* Dummy fail*/
   CU_ASSERT(2 == multiply(2, 5));
 }
 
-void test_divide(void) {
+void division(void) {
   CU_ASSERT(0 == divide(1, 0));
   
   /* Dummy fail*/
   CU_ASSERT(3 == divide(2, 2));
+}
+void mod(void) {
+  CU_ASSERT(0 == modulus(1, 0));
+   CU_ASSERT(1 == modulus(1, 5));
+  /* Dummy fail*/
+  CU_ASSERT(0 == modulus(2, 2));
 }
