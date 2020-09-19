@@ -48,8 +48,7 @@
         {
             printf("%d\n",arr[i]);
         }
-    void (*st)(int,int)=sort;
-    st(lenghth,arr);
+    sort(lenghth,arr);
     free(arr);
     }
 	return 0;		
