@@ -31,7 +31,7 @@
                 else printf("%d is not a prime number",n);
        
 	         
-	/*	//even or odd
+	//even or odd
 		x=even(n);
 		if(x==1) printf("Even number");
 		else printf ("odd");
@@ -59,7 +59,7 @@
    		  }
 	
 
-*/
+
 
 
 
