@@ -45,7 +45,7 @@ for (i = 0; i < length; i++)
         printf("\n%d ", *(arr + i));
 for (i = 0; i < length; i++) {
 
-        for (j = i + 1; j < n; j++) {
+        for (j = i + 1; j < length; j++) {
 
             if (*(arr + j) < *(arr + i)) {
 
