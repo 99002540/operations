@@ -1,6 +1,8 @@
 #include <stdio.h>
 	#include <stdlib.h>
-	#include "sum.h"			
+	
+#include<string.h>
+#include "sum.h"			
 	
 	int main()
 	{
